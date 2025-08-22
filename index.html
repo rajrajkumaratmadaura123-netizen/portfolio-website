@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raj Kumar - Data Analyst & Power BI Specialist</title>
+  <meta name="description" content="Professional portfolio website showcasing data analysis and Power BI expertise for freelance clients." />
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand" onclick="scrollToSection('hero')">Raj Kumar</div>
+      <div class="nav-links">
+        <button onclick="scrollToSection('about')">About</button>
+        <button onclick="scrollToSection('services')">Services</button>
+        <button onclick="scrollToSection('skills')">Skills</button>
+        <button onclick="scrollToSection('portfolio')">Portfolio</button>
+        <button onclick="scrollToSection('contact')">Contact</button>
+      </div>
+      <button class="hire-btn" onclick="scrollToSection('contact')">Hire Me</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="photo-container">
+          <div class="photo-wrapper">
+            <img src="profile.jpg" alt="Raj Kumar - Data Analyst" class="profile-photo" />
+            <div class="photo-badge"><i class="fas fa-chart-bar"></i></div>
+          </div>
+        </div>
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi! I'm Raj Kumar –
+            <span class="highlight">Data Analyst & Power BI Specialist.</span>
+          </h1>
+          <p class="hero-description">
+            I help businesses turn raw, messy data into interactive dashboards & actionable insights that drive growth and smarter decision-making.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn-primary" onclick="scrollToSection('services')">View My Services</button>
+            <button class="btn-secondary" onclick="scrollToSection('portfolio')">See My Work</button>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><i class="fas fa-check-circle"></i> <span>3+ Years Experience</span></div>
+            <div class="stat"><i class="fas fa-check-circle"></i> <span>100+ Dashboards Created</span></div>
+            <div class="stat"><i class="fas fa-check-circle"></i> <span>Power BI Certified</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>Hello! I'm Raj Kumar – Data Analyst & Power BI Specialist with 3+ years of practical experience in transforming complex data into business insights.</p>
+      </div>
+      <div class="about-grid">
+        <div class="features">
+          <h3>Why Clients Choose Me:</h3>
+          <div class="feature-list">
+            <div class="feature"><i class="fas fa-chart-bar"></i> Business-Focused Approach</div>
+            <div class="feature"><i class="fas fa-clock"></i> On-Time Delivery</div>
+            <div class="feature"><i class="fas fa-cogs"></i> End-to-End Solutions</div>
+            <div class="feature"><i class="fas fa-users"></i> Tailored for Decision Makers</div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="about.jpg" alt="Data analytics workspace" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Services</h2>
+        <p>Choose the perfect package for your business needs.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Basic</h3>
+          <p>$100 - Perfect for startups</p>
+        </div>
+        <div class="service-card popular">
+          <h3>Standard (Most Popular)</h3>
+          <p>$250 - Full dashboard with advanced cleaning & visuals</p>
+        </div>
+        <div class="service-card">
+          <h3>Premium</h3>
+          <p>$500+ - Enterprise solutions with automation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header"><h2>My Expertise</h2></div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Excel</h3>
+          <p>Pivot Tables, VLOOKUP, Power Query, DAX, Dashboards</p>
+        </div>
+        <div class="skill-category">
+          <h3>Power BI</h3>
+          <p>Data Modeling, DAX, Custom Visuals, Security, APIs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Dashboard Examples</h2>
+        <p>See how I transform raw data into actionable insights.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item"><img src="portfolio1.jpg" alt="Dashboard 1" /><p>Sales Analytics Dashboard</p></div>
+        <div class="portfolio-item"><img src="portfolio2.jpg" alt="Dashboard 2" /><p>Financial Analysis Dashboard</p></div>
+        <div class="portfolio-item"><img src="portfolio3.jpg" alt="Dashboard 3" /><p>HR Analytics Dashboard</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Let's Work Together</h2>
+        <p>Ready to transform your data into business success? Let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Email: <a href="mailto:rajkumarpanditt01@gmail.com">rajkumarpanditt01@gmail.com</a></p>
+          <p>Phone: <a href="tel:+919507488831">+91 9507488831</a></p>
+        </div>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Raj Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
